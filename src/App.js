@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import captianJack from './assets/captn-jack.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+          Captian Jack's ADA Stake Pool
+        </h1>
+        <img src={captianJack} className="jack-image-home" alt="captian-jack" />
+        <p > An ADA stake pool in honor of the late captian Jack. </p>
+        <p> Dedicated to financial freedom and quality of life for all.</p>
+        <p> RIP Capt'n Jack</p>
       </header>
     </div>
   );
